@@ -100,7 +100,7 @@ export async function checkParameters (parameters:any):Promise<string>  {
             }
             else {
               //  core.info('NO POLICY FOUND - NO POLICY WILL BE USED TO RATE FINDINGS')
-                throw new Error(`NO POLICY FOUND - NO POLICY WILL BE USED TO RATE FINDINGS: ${parameters.veracode_policy_name}`);
+                throw new Error(`testing our FILE OR NOT NO POLICY FOUND - NO POLICY WILL BE USED TO RATE FINDINGS: ${parameters.veracode_policy_name}`);
 
             }
 /*
