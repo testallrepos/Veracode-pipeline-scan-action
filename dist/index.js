@@ -18664,7 +18664,7 @@ function checkParameters(parameters) {
             }
             else {
                // core.info('');
-		    throw new Error(`NO POLICY FOUND - NO POLICY WILL BE USED TO RATE FINDINGS111: ${parameters.veracode_policy_name}`);
+		    throw new Error(`NO POLICY FOUND - NO POLICY WILL BE USED TO RATE FINDINGS: ${parameters.veracode_policy_name}`);
             }
             /*
                     } catch (err: any) {
