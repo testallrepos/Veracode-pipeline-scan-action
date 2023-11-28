@@ -18663,7 +18663,7 @@ function checkParameters(parameters) {
                 core.info('Something went wrong with fetching the correct policy');
             }
             else {
-               // core.info('');
+                   core.info('NO POLICY FOUND - NO POLICY WILL BE USED TO RATE FINDINGS');
 		    throw new Error(`NO POLICY FOUND - NO POLICY WILL BE USED TO RATE FINDINGS: ${parameters.veracode_policy_name}`);
             }
             /*
